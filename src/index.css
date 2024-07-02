@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0);
+  }
+  
+  .header-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .title {
+    margin-right: 90px;
+    margin-left: 10px;
+    margin-top: 15px;
+    font: 30px Arial, sans-serif;
+    font-weight: bold;
+  }
+  
+  .nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav li {
+    margin-top: 15px;
+    margin-right: 5px;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .nav-button {
+    background: none;
+    border: none;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-button:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  .arrow {
+    margin-left: 20px;
+    margin-bottom: 3px;
+  }
+  
+  .header-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .get-started {
+    border-color: green;
+    border: 2px solid black;
+    margin-top: 6px;
+    background-color: white;
+    color: black;
+    padding: 12px 30px;
+    cursor: pointer;
+    border-radius: 35px;
+    margin-right: 10px;
+  }
+  
+  .get-started:hover {
+    background-color: black;
+    color: white;
+  }
+   
+  .boostim-logo{
+    margin-left: 30px;
+    margin-top: 15px;
+  }
+  .arrow {
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    margin-right: 40px;
+    padding: 3px;
+  }
+   
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+  
+  .notif{
+    margin-top: 6px;
+    margin-right: 20px;
+  }
